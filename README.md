@@ -28,6 +28,9 @@ This pipeline aligns with industry CI/CD best practices and reflects how automat
 - Streamlined operations for staging, production, and feature branches
 - Reliable execution of DevOps routines without manual intervention
 
+## Screenshot of Workflow run
+![GitHub Actions Workflow Run](./images/workflow-run.png)
+
 ## Next Enhancements (Planned)
 
 - Integration of automated unit testing
