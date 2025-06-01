@@ -28,8 +28,12 @@ This pipeline aligns with industry CI/CD best practices and reflects how automat
 - Streamlined operations for staging, production, and feature branches
 - Reliable execution of DevOps routines without manual intervention
 
-## Screenshot of Workflow run
-![GitHub Actions Workflow Run](./images/workflow-run.png)
+## Workflow Execution Screenshot
+
+Here's a visual representation of the GitHub Actions workflow run:
+
+![GitHub Actions Workflow Run](./GitHub%20Actions%20Workflow%20run.png.png)
+
 
 ## Next Enhancements (Planned)
 
