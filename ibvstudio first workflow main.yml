@@ -1,3 +1,29 @@
-.github/
-└── workflows/
-    └── first-workflow.yml
+name: Learn GitHub Actions
+
+on: [push]
+
+jobs:
+  explore-github-actions:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v3
+
+    - name: Show Current Directory
+      run: pwd
+
+    - name: List Files in Project
+      run: ls -la
+
+    - name: Display Current Date and Time
+      run: date
+
+    - name: Use an Environment Variable
+      run: echo "Hello, my name is $MY_NAME"
+      env:
+        MY_NAME: "Pastor David"
+
+    - name: Run Only on Main Branch
+      if: github.ref == 'refs/heads/main'
+      run: echo "This runs only on the main branch."
